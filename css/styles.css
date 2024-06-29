@@ -1,0 +1,1077 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.22);
+}
+
+
+header{
+    background-color: #101010;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo{
+    width: 200px;
+}
+
+.nav{
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+
+.nav-list li{
+    list-style: none;
+   
+}
+
+.nav-list li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.nav-list li i{
+    margin-right: 7px;
+    color: white;
+}
+
+.nav-link{
+    position: relative;
+    transition: 0.7s;
+
+}
+
+.nav-link:hover{
+    color: yellow;
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(255, 251, 0, 0.76);
+    
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.principal{
+    background-image: url(../images/Imagen-principal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.principal div{
+    margin: 10px;
+}
+
+.logo-principal{
+    width: 30%;
+}
+
+.informacion{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding:20px;
+    text-align: start;
+    width: 30%;
+    
+}
+.informacion h1{
+    color: white;
+    margin-bottom: 20px;  
+    font-size: 1.8rem;  
+}
+
+.informacion p{
+    color: white;
+    font-size:20px;
+}
+
+.ver-mas{
+    display: none;
+}
+
+.links-disponible{
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.informacion p#text-disponible{
+    margin-top: 20px;
+}
+
+
+.principal span button{
+    margin-top: 10px;
+    border-style: none;
+    width: 100%;
+    height: 90px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #101010;
+    cursor: pointer;
+    transition: .3s;
+    
+}
+.logo-plataforma{
+
+    width:30%;
+}
+
+#netflix{
+    color: red;
+    background-color: transparent;
+}
+#crunchyroll{
+    color: orange;
+    background-color: transparent;
+}
+
+button:active {
+    transform: scale(0.8)
+}
+
+
+.img-itadori {
+    display: none;
+}
+
+
+/*TEMPORADAS*/
+
+.secundario{
+    
+    margin-top: 40px;
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+}
+.temporada-2{
+   
+    box-shadow: 0 0 40px -10px #202020;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    height: 450px;
+    text-align: start;
+    margin-top: 100px;
+}
+
+.temporada-2 img{
+    
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px ;
+}
+
+#img-2{
+    
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.info-temp{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-temp p{
+    
+    width: 80%;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.info-temp h2{
+   
+    width: 80%;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.info-temp h3{
+    width: 80%;
+    margin-top: 10px;
+}
+
+.ver-episodios{
+    display: none;
+}
+.episodios {
+   margin-top: 20px;
+   display: flex;
+   gap: 35px;
+   width: 80%;
+}
+
+.episodios div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.episodios a{
+    color: black;
+}
+.episodios p{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+.episodios h4{
+    display: block;
+    height: 30px;
+    
+}
+.episodios img{
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 100%;
+}
+.episodios i#top-1{
+    color: gold;
+}
+.episodios i#top-2{
+    color: lightgrey;
+}
+.episodios i#top-3{
+    color:rgba(179, 131, 0, 0.815);
+}
+.episodios i#star{
+    color: gold;
+    font-size: 13px;
+}
+
+/*SECCION PREMIOS*/
+.premios{
+    display: flex;
+    flex-direction: row;
+    gap:25px;
+    width: 90%;
+    margin-top: 100px;
+    justify-content: center;
+}
+ 
+.premios h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    gap: 15px;
+    height: 60PX;
+    background-color: #202020;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.premios h4{font-size: 20px;}
+ 
+.premios i{
+    color: yellow;
+}
+.ganados{
+    box-shadow: 0 0 40px -10px #202020;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: white;
+}
+.nominados{
+    box-shadow: 0 0 40px -10px #202020;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: white;
+}
+ 
+.nominados div{
+    gap: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+ 
+.nominados img{
+    border-radius: 10px;
+    width: 30%;
+}
+ 
+.nominados span{
+    gap: 5px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+ 
+.ganados div{
+    gap: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+ 
+.ganados img{
+    border-radius: 10px;
+    width: 30%;
+}
+ 
+.ganados span{
+    gap: 5px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+
+/*GALERIA*/
+
+.galeria-principal{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.galeria-temporada-1{
+    flex-direction: column;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.galeria-temporada-1 h2{
+    box-shadow: 0 0 40px -10px #202020;
+    color: #101010;
+    background-color: white;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    font-size: 45px;
+    padding: 10px;
+}
+
+.galeria-temporada-1 div{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 25px;
+    width: 90%;
+}
+
+.galeria-temporada-1 img{
+    box-shadow: 0 0 40px -10px #202020;
+    width: 33%;
+}
+.galeria-temporada-1 a:hover img{
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+/*PERSONAJES*/
+.personajes{
+    display: flex;
+    padding: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.card{
+    box-shadow: 0 0 40px -10px #000000;
+    background-image: url(../images/Imagen-principal.jpg);
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    width: 350px;
+    height: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+/*IMG CARDS*/
+
+.card#gojo{
+    background-image: url(../Cards/Gojo.jpg)
+}
+.card#nobara{
+    background-image: url(../Cards/nobara.jpg)
+}
+.card#megumi{
+    background-image: url(../Cards/megumi.jpg)
+}
+.card#choso{
+    background-image: url(/Cards/choso.jpg);
+}
+.card#sukuna{
+    background-image: url(/Cards/sukuna.jpg);
+}
+.card#toji{
+    background-image: url(/Cards/toji.jpg);
+}
+
+.card#geto{
+    background-image: url(/Cards/geto.jpg);
+}
+
+
+.card-info{
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.card-info:hover{
+    outline: solid green;
+    position: relative;
+    transition: 0.1s;
+    opacity: 1;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.card-info h2{
+    padding-top: 20px;
+    font-size: 50px;
+    color: white;
+}
+
+.card-info h4{
+    color: white;
+    font-size: 20px;
+    padding-top: 3px;
+}
+.card-info p{
+    text-align: start;
+    width: 100%;
+    padding-top: 25px;
+    font-size: 15px;
+    color: white;
+}
+
+.card-info ul{
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+
+
+
+
+/*FOOTER*/
+footer{
+    display: flex;
+    margin-top: 150px;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 25px;
+    color: white;
+    background-color: #101010;
+}
+
+footer div{
+    width: 50%;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+footer i{
+    color: rgba(255, 251, 0, 0.76);
+    font-size: 20px;
+}
+footer p{
+    margin-top: 20px;
+
+}
+footer h4{
+    font-size: 20px;
+}
+
+.footer-list{
+    margin-top:20px;
+}
+.footer-list li{
+    margin-top: 10px ;
+    list-style: none;
+}
+
+.footer-list li a{
+    color: white;
+} 
+
+@media(width < 576px){
+    header{
+        position: sticky;
+	    top: 0;
+	    z-index: 1;
+    }
+    .nav-link{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .burger.activate .bar:nth-child(2){
+        opacity: 0;
+    }
+    .burger.activate .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .burger.activate .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-list{
+        z-index: 1;
+        position:fixed;
+        right: -600px;
+        top: 100px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #101010;
+        width: 100%;
+        align-items: start;
+        transition: 0.45s;
+        padding: 20px;
+
+    }
+    .nav-list li{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        justify-content: start;
+        height: 45px;
+        width: 100%;
+        margin: 5px 0;
+        border-bottom: solid yellow 1px;
+        
+    }
+    .nav-list.activate{
+        right: 0px;
+    }
+    .nav-list li i{
+       margin-right: 10px;
+       color: white;
+    }
+    
+    .principal{
+        flex-direction: column;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .logo-principal{
+        width: 110%;
+    }
+
+
+    .informacion{
+        background: none;
+        width: 100%;
+    }
+
+    .informacion h1{
+        color: #101010;
+    }
+
+
+    .informacion p{
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        padding: 10px;
+        border-bottom-left-radius: 0;
+        font-size: 18px;
+    }
+
+    .informacion p#text-1{
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .show{
+        display:block;
+    }
+
+    .ver-mas{
+        display: block;
+        width: 100%;
+        background-color: #101010;
+        margin-top: 20px;
+        padding: 10px;
+        color: white;
+    }
+    button {
+        border-radius: 10px;
+        border-style: none;
+    }
+    .informacion p#text-disponible{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        border-radius: 10px;
+        text-align: center;
+        background-color:rgba(0, 0, 0, 0.7);
+    }
+
+    .links-disponible{
+        padding-top: 0;
+        background-color: transparent;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding-bottom: 8px;
+    }
+    .principal span button{
+        width: 200px;
+    }
+
+    .img-itadori {
+        display:none;
+    }
+
+    .temporada-2{
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        margin-top:20px;
+    }
+    .temporada-2 img#img-season{
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+    .info-temp{
+        padding: 20px;
+    }
+
+    .info-temp h2{
+        width: 100%;
+        font-size: 25px;
+    }
+    .info-temp p{
+        width: 100%;
+        font-size: 20px;
+    }
+    .info-temp h3{
+        display: none;
+    }
+    .episodios{
+        display: none;
+    }
+    .show-episodios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ver-episodios{
+        display: flex;
+        outline: solid;
+        justify-content: center;
+        width: 100%;
+        background-color: #101010;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+    .ver-episodios:active{
+        transform: scale(0.9)
+    }
+
+    .episodios-show{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        outline: sol;
+    }
+
+    .secundario div#JJK0{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .secundario div#JJK0 img{
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius:0 ;
+    }
+
+
+    /*GALERIA*/
+
+    .galeria-temporada-1{
+        width: 90%;   
+        margin-bottom: 50px;     
+    }
+    .galeria-temporada-1 h2{
+        width: 100%;
+    }
+    .galeria-temporada-1 div{
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        width: 100%;
+    }
+    .galeria-temporada-1 img{
+        margin-bottom: 15px;
+        width:100% ;
+    }
+
+    .galeria-temporada-1 a:hover img{
+        transform: scale(1);
+    }
+
+
+
+
+
+    /*PREMIOS*/
+    .premios{
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .ganados div{
+        padding: 10px;
+    }
+ 
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    footer div{
+        margin-top: 25px;
+    }
+
+    /*TARJETAS PERSONAJES*/
+    .personajes{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        gap: 25px;
+    }
+
+
+
+
+    /*FOOTER*/
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    footer div{
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    footer div p{
+        font-size: 16px;
+    }
+
+}
+
+@media(width>576px) and (width<1300px) {
+
+    header{
+        position: sticky;
+	    top: 0;
+	    z-index: 1;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .burger.activate .bar:nth-child(2){
+        opacity: 0;
+    }
+    .burger.activate .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .burger.activate .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-list{
+        z-index: 1;
+        position:fixed;
+        right: -2000px;
+        top: 100px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #101010;
+        width: 100%;
+        align-items: start;
+        transition: 0.45s;
+        padding: 20px;
+
+    }
+    .nav-list li{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        justify-content: start;
+        height: 45px;
+        width: 100%;
+        margin: 5px 0;
+        border-bottom: solid yellow 1px;
+        
+    }
+    .nav-list.activate{
+        right: 0px;
+    }
+    .nav-list li i{
+       margin-right: 10px;
+       color: white;
+        
+    }
+
+    .principal{
+        flex-direction: column;
+        height: 100%;
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+        background-size: cover;
+        background-position: center;
+    }
+    .informacion{
+        width: 50%;
+    }
+
+    .informacion p{
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 10px;
+        color: white;
+        border-bottom-left-radius: 0;
+        font-size: 18px;
+    }
+
+    .informacion p#text-1{
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .show{
+        display:block;
+    }
+
+    button{
+        border-style: none;
+        border-radius: 10px;
+    }
+
+    .ver-mas{
+        display: block;
+        width: 100%;
+        background-color: #101010;
+        margin-top: 20px;
+        border-style: none;
+        padding: 10px;
+        border-radius: 10px;
+        transition: 0.5s;
+        color: white;
+    }
+    .informacion p#text-disponible{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        border-radius: 10px;
+        text-align: center;
+        background-color:rgba(0, 0, 0, 0.7);
+    }
+    .links-disponible{
+        margin-top: 10px;
+        padding-top: 0;
+        background-color: transparent;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding-bottom: 8px;
+    }
+
+    .links-disponible a button{
+        width: 100%;
+    }
+
+
+
+
+    .secundario{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .temporada-2{
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        margin: 10px;
+        width: 100%;
+    }
+    .temporada-2 img#img-season,#img-2{
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+    .info-temp{
+        padding: 20px;
+    }
+
+    .info-temp h2{
+        width: 100%;
+        font-size: 25px;
+    }
+    .info-temp p{
+        width: 100%;
+        font-size: 20px;
+    }
+    .info-temp h3{
+        display: none;
+    }
+    .episodios{
+        display: none;
+    }
+    .show-episodios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ver-episodios{
+        display: flex;
+        outline: solid;
+        justify-content: center;
+        width: 100%;
+        background-color: #101010;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+    .ver-episodios:active{
+        transform: scale(0.9)
+    }
+
+    .episodios-show{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        outline: sol;
+    }
+
+    .secundario div#JJK0{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .secundario div#JJK0 img{
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius:0 ;
+    }
+
+    .personajes{
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+
+}
+
+
