@@ -98,6 +98,10 @@ section{
     height: 100%;
 }
 
+.titulo-hidden{
+    display: none;
+}
+
 .principal div{
     margin: 10px;
 }
