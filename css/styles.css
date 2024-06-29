@@ -461,17 +461,17 @@ button:active {
     background-image: url(../Cards/megumi.jpg)
 }
 .card#choso{
-    background-image: url(/Cards/choso.jpg);
+    background-image: url(../Cards/choso.jpg);
 }
 .card#sukuna{
-    background-image: url(/Cards/sukuna.jpg);
+    background-image: url(../Cards/sukuna.jpg);
 }
 .card#toji{
-    background-image: url(/Cards/toji.jpg);
+    background-image: url(../Cards/toji.jpg);
 }
 
 .card#geto{
-    background-image: url(/Cards/geto.jpg);
+    background-image: url(../Cards/geto.jpg);
 }
 
 
