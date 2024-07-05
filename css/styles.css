@@ -412,7 +412,7 @@ button:active {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: top;
+    background-position:center center;
     margin-bottom: 50px;
 }
 .titulo-galeria h1{
