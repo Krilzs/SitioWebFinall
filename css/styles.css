@@ -409,12 +409,10 @@ button:active {
     height: 90vh;
     margin: 0;
     background-image: url(../images/fondo-galeria.jpg);
-
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     margin-bottom: 50px;
-    
 }
 .titulo-galeria h1{
     display: flex;
