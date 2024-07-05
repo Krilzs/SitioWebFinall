@@ -1062,11 +1062,9 @@ footer h4{
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        background-position: 0;
+        background-position:unset;
         margin-bottom: 50px;
     }
-
-
 
     .titulo-galeria h1{
         display: flex;
