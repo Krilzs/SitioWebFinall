@@ -1,6 +1,7 @@
 //Menu Hamburguesa
 const $burger = document.querySelector(".burger");
 const $navList = document.querySelector(".nav-list");
+const $principal =document.querySelector(".principal")
 
 $burger.addEventListener("click", ()=> {
     $burger.classList.toggle("activate");
@@ -13,6 +14,7 @@ let $vermas_btn = document.getElementById('vermas_btn');
 let $hidetext = document.getElementById('hidetext');
 
 $vermas_btn.addEventListener("click", toggleText);
+$vermas_btn.addEventListener("click", expandirprincipal)
 
 function toggleText(){
     $hidetext.classList.toggle('show')
@@ -21,6 +23,10 @@ function toggleText(){
     else
         $vermas_btn.innerHTML='Leer Mas';
 
+}
+
+function expandirprincipal(){
+    $principal.classList.toggle('principal-expandir')
 }
 
 //Mejores Episodios 1
