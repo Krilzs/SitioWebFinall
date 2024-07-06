@@ -565,7 +565,7 @@ button:active {
 .card-info:hover{
     border-radius: 10px;
     position: relative;
-    transition: 0.1s;
+    transition: 0.05s;
     opacity: 1;
     backdrop-filter: blur(10px);
     padding: 20px;
@@ -599,7 +599,6 @@ button:active {
     flex-direction: column;
     gap: 10px;
     padding-top: 10px;
-    font-weight: 700;
 }
 
 /*CONTACO*/
@@ -842,7 +841,64 @@ button:active {
     font-size: 500%;
 }
 
+.estudio-mappa{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 40px -10px #202020;
+}
 
+.estudio-mappa h2{
+    font-size: 30px;
+}
+.estudio-mappa h3{
+    font-size: 24px;
+}
+
+.estudio-mappa p{
+    font-size: 18px;
+}
+
+.estudio-mappa li{
+    font-size: 18px;
+}
+.estudio-mappa strong{
+    color: #d6b600f5;
+}
+
+.info-mappa{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.info-mappa span{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+}
+
+
+
+.info-mappa ul{
+    padding: 10px;
+    list-style: none;
+}
+
+.foto-mappa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-mappa img{
+    border-radius: 15px;
+}
 
 
 /*FOOTER*/
@@ -1213,7 +1269,7 @@ footer h4{
         background-size: auto;
         height: 100vh;
         background-position: center;
-}
+    }
 
     .titulo-personajes h1{
         display: flex;
@@ -1364,7 +1420,31 @@ footer h4{
         align-items: center;
         width: 100%;
         font-size:300%;
-   }
+    }
+
+    .estudio-mappa{
+        width: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        padding: 0;
+        gap: 0;
+        border-radius: 15px;
+        box-shadow: 0 0 40px -10px #202020;
+    }
+
+    .info-mappa{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        padding: 10px;
+    }
+
+    .foto-mappa img{
+        width: 100%;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
    
 
     /*FOOTER*/
